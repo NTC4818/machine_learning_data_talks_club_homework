@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.120.1",
+    "kaggle>=1.7.4.5",
+    "kagglehub[polars-datasets]>=0.3.13",
     "requests>=2.32.5",
     "scikit-learn==1.6.1",
     "uvicorn>=0.38.0",
